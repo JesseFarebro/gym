@@ -6,7 +6,7 @@ from gym import utils
 from gym.utils import seeding
 
 try:
-    import atari_py
+    import ale_py
 except ImportError as e:
     raise error.DependencyNotInstalled(
             "{}. (HINT: you can install Atari dependencies by running "
